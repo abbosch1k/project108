@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int a = 5;
+    int b = 7;
+
+    int answer;
+
+    cout << a << " * " << b << " = ";
+    cin >> answer;
+
+    if(answer == a * b)
+        cout << "Correct!";
+    else
+        cout << "Wrong!";
+
+    return 0;
+}
