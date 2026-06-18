@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int seconds;
+
+    cin >> seconds;
+
+    cout << seconds / 60;
+
+    return 0;
+}
